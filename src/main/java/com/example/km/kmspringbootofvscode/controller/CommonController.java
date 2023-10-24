@@ -19,7 +19,7 @@ public class CommonController{
     @RequestMapping(value = "/api")
     public HashMap test() {
         HashMap result = new HashMap();
-        result.put("message", "안녕하세요.");
+        result.put("message", "안녕하세요. git ");
         System.out.println("Hello");
         return result;
     }
