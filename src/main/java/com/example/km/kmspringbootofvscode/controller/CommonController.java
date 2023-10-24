@@ -21,6 +21,7 @@ public class CommonController{
         HashMap result = new HashMap();
         result.put("message", "반갑습니다.");
         System.out.println("Hello World");
+        System.out.println("MY CODE");
         return result;
     }
 }
