@@ -11,7 +11,7 @@ public class CommonController{
     @RequestMapping(value = "/")
     public String enter() {
         HashMap result = new HashMap();
-        result.put("message", "안녕하세요");
+        result.put("message", "안녕하세요 a             asdfafsadfsadfasdfasdfdasf");
 
         return "index";
     }
